@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std ;
+main ()
+{
+	string username = "Khaliq";
+	int password = 123;
+	cout << "enter username" << endl;
+	cin >> username;
+	cout << "enter password" << endl;
+	cin >> password;
+	if( username == "rimza" && password == 123) 
+	{
+		cout << "log in successfully";
+	}
+	else
+	{
+		cout << "invalid log in ";
+	}
+}
